@@ -1,0 +1,362 @@
+/* dot we use for the Class */
+ /* # we use for the Id */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white ;
+    min-width: 960px;
+}
+
+/* Navigation CSS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+   background-color: #55ACEE;
+   color: azure;
+
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 1em;
+        font-size: 18px;
+        }
+
+        .nav-links li:hover {
+        border-radius: 5px;
+        transition: 0.3s ease;
+        background-color: #1c1c1c;
+        }
+
+        .nav-links li {
+        padding: 5px 11px;
+        }
+    .nav-links a {
+      text-decoration: none;
+    color: azure;
+
+    }
+    /* LOGO */
+
+    .logo {
+    font-size: 25px;
+    }
+
+
+
+
+/* Navigation end */
+
+.blue-text {
+  color: #1570bb;
+}
+
+
+/* Blue Color Button */
+.blue-btn{
+    background-color: #1570bb;
+    color: white;
+  }
+/* Blue Color Button End*/
+.text-center {
+    text-align: center!important;
+}
+
+/* Container CSS */
+.container, .container-fluid,.container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/* Container End */
+
+/* Row CSS */
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+/* Footer */
+#footer {
+    background-color:#1570bb;
+    text-align: center;
+    color: azure;
+    margin-top: 10px;
+    bottom: 2px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+/* Row End */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+table, th,td {
+  border:1px solid #1570bb;
+}
+.mb-5 {
+    margin-bottom: 2rem!important;
+}
+.mt-5 {
+    margin-top: 2rem!important;
+}
+h4 {
+    font-size: 20px;
+}
+
+/* Button CSS */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 10px;
+
+    /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+.btn:hover {
+    color: white;
+    background-color: #1c1c1c;
+}
+
+/* Button CSS End */
+.mt-2 {
+    margin-top: 0.5rem!important;
+}
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+.mt-3 {
+    margin-top: 1rem!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.text-white{
+    color: white !important;
+}
+
+.blue-btn {
+    background-color: #1570bb;
+    color: white;
+}
+
+ ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* make scrollbar transparent */
+    background: transparent;
+}
+.text-end {
+    text-align: right!important;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+
+  }
+  .fa-facebook:hover,.fa-instagram:hover,.fa-whatsapp:hover, .fa-twitter:hover {
+    color: black;
+  }
+  .fab {
+
+    color: azure;
+  }
+  .fa {
+
+    color: #1570bb;
+  }
+ /*end social icon css*/
+
+/* media queries */
+/* Mobile */
+@media (min-width: 576px){
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .container, .container-sm {
+        max-width: 540px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px)
+{
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+
+/* Laptop */
+@media (min-width: 992px){
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+       background-color: #55ACEE;
+       color: azure;
+
+        }
+        .nav-links a {
+          text-decoration: none;
+        color: azure;
+
+        }
+        /* LOGO */
+
+        .logo {
+
+        font-size: 32px;
+        /* height: ;
+        width: ; */
+
+        }
+
+        /* NAVBAR MENU */
+
+        .menu {
+        display: flex;
+        list-style: none;
+        gap: 1em;
+        font-size: 18px;
+
+        }
+
+        .menu li:hover {
+        background-color: black;
+        border-radius: 5px;
+        transition: 0.3s ease;
+        }
+
+        .menu li {
+
+        padding: 5px 14px;
+
+        }
+
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+
+    }
+}
+
+ /* Big screens */
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+    .h2, h2 {
+        font-size: 2rem;
+    }
+    .h1, h1{
+        font-size: 42px;
+
+        font-family:'Times New Roman', Times, serif;
+        color: #55ACEE;
+        font-weight: bold;
+    }
+    .h3, h3{
+        font-weight: bold;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+
+/* For the Navigation  */
+@media (max-width: 992px){
+.nav {
+    position: absolute;
+    background-color: #1c1c1c;
+    top: 55px;
+    width: 100%;
+    left: 0px;
+    transition: 0.2s;
+}
+}
+
+@media (max-width: 575px){
+.content_img {
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+}

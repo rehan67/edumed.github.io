@@ -1,0 +1,37 @@
+.footer {
+  position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#1570bb;  
+    color: aliceblue;
+  }
+
+  .rounddiv {
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+  }
+
+  .circles {
+  display: flex;
+}
+.circle-with-text {
+  background: linear-gradient(rgb(234, 231, 225), rgb(64, 143, 199));
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  margin: 5px 20px;
+  font-size: 15px;
+  padding: 15px;
+  display: flex;
+  height: 280px;
+  width: 280px;
+  color: #fff;
+}
+.multi-line-text {
+  font-size: 20px;
+}

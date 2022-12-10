@@ -1,0 +1,14 @@
+.human-pic{
+  height: 600px;
+  width: 500px;
+}
+ul {
+  padding: 1px;  
+  padding-left: 40px;
+  list-style: none;
+}
+li {
+  margin-bottom: 30px;
+}
+
+
